@@ -94,6 +94,6 @@ git push
 ## Lab checklist
 
 - [x] Read the instructions
-- [ ] Replace the hello world job with the new test job
-- [ ] Push the changes and check the pipeline execution in the Actions tab
-- [ ] Optional: Make the test fail, commit, and push the changes. Check what happens.
+- [X] Replace the hello world job with the new test job
+- [X] Push the changes and check the pipeline execution in the Actions tab
+- [X] Optional: Make the test fail, commit, and push the changes. Check what happens.
