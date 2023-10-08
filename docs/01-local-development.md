@@ -44,7 +44,7 @@ and then open http://localhost:3000 to check our web application.
 ## Lab checklist
 
 - [x] Read the instructions
-- [ ] Install the application dependencies
-- [ ] Build the application locally
-- [ ] Run the unit test locally
-- [ ] Deploy the application locally in development mode
+- [x] Install the application dependencies
+- [x] Build the application locally
+- [x] Run the unit test locally
+- [x] Deploy the application locally in development mode

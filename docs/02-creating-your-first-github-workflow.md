@@ -98,6 +98,6 @@ To see it, open your GitHub repo in the browser, click on the Actions tab, and c
 ## Lab checklist
 
 - [x] Read the instructions
-- [ ] Create a folder structure `.github/workflows/` where we'll create our first workflow
-- [ ] Create a GitHub workflow called `pipeline.yml`
-- [ ] Push the changes and check the pipeline execution in the Actions tab of your GitHub repo in the browser
+- [x] Create a folder structure `.github/workflows/` where we'll create our first workflow
+- [x] Create a GitHub workflow called `pipeline.yml`
+- [x] Push the changes and check the pipeline execution in the Actions tab of your GitHub repo in the browser
