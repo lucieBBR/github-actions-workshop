@@ -64,6 +64,6 @@ Open your Github repo in the browser, click on the Actions tab, and check the pi
 ## Lab checklist
 
 - [x] Read the instructions
-- [ ] Add the build job to the CD workflow
-- [ ] Push the changes and check the pipeline logs in the Actions tab
+- [x] Add the build job to the CD workflow
+- [x] Push the changes and check the pipeline logs in the Actions tab
 - [ ] Think about other tasks that could be automated as part of the build stage in the pipeline
