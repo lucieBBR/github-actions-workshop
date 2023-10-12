@@ -1,14 +1,17 @@
 name: CI/CD Pipeline
 
 on: push
+
 env:
   NODE_VERSION: "18.18"
+
 jobs:
   hello-world:
     runs-on: ubuntu-latest
     steps:
       - name: Hello World step
         run: echo "Hello World!"
+
   test:
     name: Test
     runs-on: ubuntu-latest
@@ -23,6 +26,7 @@ jobs:
         run: |
           npm ci
           npm run test
+
   build:
     name: Build
     needs: test
@@ -41,14 +45,15 @@ jobs:
       - name: Upload artifacts
         uses: actions/upload-artifact@v3
         with:
-         name: react-app-v${{ github.sha }}
-         path: build
+          name: react-app-v${{ github.sha }}
+          path: build
+
   deploy-prod-firebase:
     name: Deploy to prod on Firebase
     needs: build
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout code
+      - name: Checkout code
         uses: actions/checkout@v2
       - name: Deploy with Node.js ${{ env.NODE_VERSION }}
         uses: actions/setup-node@v1

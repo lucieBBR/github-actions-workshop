@@ -184,4 +184,4 @@ Now you can open the URL that appears in the pipeline logs to see your app runni
 - [x] Option 2 - Create a Firebase account and configure it
 - [x] Add the automated deployment job to the CD pipeline
 - [x] Push the changes and check the pipeline logs in the Actions tab
-- [] Answer this question: is the pipeline implementing continuous delivery or continuous deployment?
+- [x] Answer this question: is the pipeline implementing continuous delivery or continuous deployment?
